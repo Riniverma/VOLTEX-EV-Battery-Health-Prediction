@@ -1,0 +1,967 @@
+NASA ALT DATASET INSPECTION REPORT
+=================================================================
+Dataset folder: C:\Users\verma\OneDrive\Desktop\supervisedproject\data\raw\nasa_alt
+Total CSV files: 26
+
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery02.csv
+Rows: 2069667
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1809105
+  current_load: 1809105
+  temperature_mosfet: 1809105
+  temperature_resistor: 1809105
+  mission_type: 1809105
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2095709.83
+  mode: -1.0 to 1.0
+  voltage_charger: -0.0579999999999999 to 12.17
+  temperature_battery: 0.0 to 78.924
+  voltage_load: -0.027 to 8.737
+  current_load: 0.15 to 16.596952202492727
+  temperature_mosfet: 19.54 to 34.13
+  temperature_resistor: 19.75 to 32.97
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery03.csv
+Rows: 2161444
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1818117
+  current_load: 1818117
+  temperature_mosfet: 1818117
+  temperature_resistor: 1818117
+  mission_type: 1818117
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2210055.058
+  mode: -1.0 to 1.0
+  voltage_charger: 0.0 to 8.776
+  temperature_battery: 0.0 to 80.314
+  voltage_load: -0.027 to 9.058
+  current_load: 0.15 to 16.825215388997325
+  temperature_mosfet: 21.29 to 34.12
+  temperature_resistor: 21.77 to 33.65
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery12.csv
+Rows: 3041084
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2550399
+  current_load: 2550399
+  temperature_mosfet: 2550399
+  temperature_resistor: 2550399
+  mission_type: 2550399
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 3081638.5030000005
+  mode: -1.0 to 1.0
+  voltage_charger: 0.0 to 8.632
+  temperature_battery: 0.0 to 79.946
+  voltage_load: -0.027 to 8.75
+  current_load: 0.15 to 16.662537256349655
+  temperature_mosfet: 19.26 to 34.16
+  temperature_resistor: 19.5 to 33.05
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery24.csv
+Rows: 3285619
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2795858
+  current_load: 2795858
+  temperature_mosfet: 2795858
+  temperature_resistor: 2795858
+  mission_type: 2795858
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 3315639.176000001
+  mode: -1.0 to 1.0
+  voltage_charger: -0.1169999999999999 to 9.157
+  temperature_battery: -70.458 to 85.93
+  voltage_load: -0.027 to 8.743
+  current_load: 0.15 to 16.730898236210894
+  temperature_mosfet: 19.11 to 33.88
+  temperature_resistor: 19.38 to 33.02
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery25.csv
+Rows: 2169910
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1828106
+  current_load: 1828106
+  temperature_mosfet: 1828106
+  temperature_resistor: 1828106
+  mission_type: 1828106
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2218452.2270000004
+  mode: -1.0 to 1.0
+  voltage_charger: -0.117 to 9.14
+  temperature_battery: -116.103 to 83.665
+  voltage_load: -0.027 to 8.742
+  current_load: 0.15 to 16.551042260215226
+  temperature_mosfet: 20.68 to 33.26
+  temperature_resistor: 21.72 to 33.29
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery32.csv
+Rows: 1829938
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1616725
+  current_load: 1616725
+  temperature_mosfet: 1616725
+  temperature_resistor: 1616725
+  mission_type: 1616725
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1855799.859
+  mode: -1.0 to 1.0
+  voltage_charger: -0.061 to 9.171
+  temperature_battery: 0.0 to 72.418
+  voltage_load: -0.027 to 8.718
+  current_load: 0.15 to 16.8035444377641
+  temperature_mosfet: 21.5 to 34.31
+  temperature_resistor: 21.67 to 33.08
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery33.csv
+Rows: 2353426
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2056841
+  current_load: 2056841
+  temperature_mosfet: 2056841
+  temperature_resistor: 2056841
+  mission_type: 2056841
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2381766.9260000004
+  mode: -1.0 to 1.0
+  voltage_charger: -0.06 to 12.041
+  temperature_battery: 0.0 to 75.809
+  voltage_load: -0.027 to 8.726
+  current_load: 0.15 to 16.6874565468388
+  temperature_mosfet: 19.34 to 33.9
+  temperature_resistor: 19.74 to 33.1
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: recommissioned_batteries\battery53.csv
+Rows: 1139972
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1002812
+  current_load: 1002812
+  temperature_mosfet: 1002812
+  temperature_resistor: 1002812
+  mission_type: 1002812
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1157846.8619999995
+  mode: -1.0 to 1.0
+  voltage_charger: -0.066 to 9.133
+  temperature_battery: 0.0 to 83.36
+  voltage_load: -0.027 to 8.826
+  current_load: 0.152 to 17.0011709096715
+  temperature_mosfet: 21.12 to 34.28
+  temperature_resistor: 21.31 to 32.21
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery00.csv
+Rows: 1101244
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 995238
+  current_load: 995238
+  temperature_mosfet: 995238
+  temperature_resistor: 995238
+  mission_type: 995238
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1079483.149
+  mode: -1.0 to 1.0
+  voltage_charger: -0.06 to 9.176
+  temperature_battery: 0.0 to 102.308
+  voltage_load: -0.027 to 8.703
+  current_load: 0.15 to 19.39103958783065
+  temperature_mosfet: 18.22 to 33.46
+  temperature_resistor: 22.01 to 35.16
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery01.csv
+Rows: 4918193
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 4169225
+  current_load: 4169225
+  temperature_mosfet: 4169225
+  temperature_resistor: 4169225
+  mission_type: 4169225
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 4951797.759000001
+  mode: -1.0 to 1.0
+  voltage_charger: -0.06 to 9.177
+  temperature_battery: 0.0 to 72.733
+  voltage_load: -0.027 to 8.73
+  current_load: 0.15 to 10.373174551523428
+  temperature_mosfet: 21.52 to 33.74
+  temperature_resistor: 21.73 to 32.46
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery10.csv
+Rows: 907341
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 817497
+  current_load: 817497
+  temperature_mosfet: 817497
+  temperature_resistor: 817497
+  mission_type: 817497
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 888182.153
+  mode: -1.0 to 1.0
+  voltage_charger: -0.073 to 9.15
+  temperature_battery: 0.0 to 96.12
+  voltage_load: -0.027 to 8.721
+  current_load: 0.15 to 16.877017215505038
+  temperature_mosfet: 21.15 to 33.42
+  temperature_resistor: 22.2 to 32.52
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery11.csv
+Rows: 4914864
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 4155142
+  current_load: 4155142
+  temperature_mosfet: 4155142
+  temperature_resistor: 4155142
+  mission_type: 4155142
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 4951138.331
+  mode: -1.0 to 1.0
+  voltage_charger: -0.072 to 8.7
+  temperature_battery: 0.0 to 64.02600000000001
+  voltage_load: -0.027 to 8.748
+  current_load: 0.15 to 10.47350300195046
+  temperature_mosfet: 21.46 to 33.38
+  temperature_resistor: 21.66 to 30.41
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery20.csv
+Rows: 207391
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 188464
+  current_load: 188464
+  temperature_mosfet: 188464
+  temperature_resistor: 188464
+  mission_type: 188464
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 203451.494
+  mode: -1.0 to 1.0
+  voltage_charger: -0.115 to 9.161
+  temperature_battery: 0.0 to 109.165
+  voltage_load: -0.026 to 8.707
+  current_load: 0.15 to 19.78193797274949
+  temperature_mosfet: 19.57 to 33.61
+  temperature_resistor: 22.59 to 36.09
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery21.csv
+Rows: 530718
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 484038
+  current_load: 484038
+  temperature_mosfet: 484038
+  temperature_resistor: 484038
+  mission_type: 484038
+Data types:
+  start_time: str
+  time: float64
+  mode: int64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 519642.361
+  mode: -1 to 1
+  voltage_charger: -0.118 to 9.155
+  temperature_battery: 0.0 to 65.965
+  voltage_load: -0.026 to 8.735
+  current_load: 0.15 to 20.04214987
+  temperature_mosfet: 22.22 to 34.81
+  temperature_resistor: 22.4 to 36.19
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery22.csv
+Rows: 2690545
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2377922
+  current_load: 2377922
+  temperature_mosfet: 2377922
+  temperature_resistor: 2377922
+  mission_type: 2377922
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2695259.1020000004
+  mode: -1.0 to 1.0
+  voltage_charger: -0.119 to 9.158
+  voltage_load: -0.027 to 8.741
+  current_load: 0.15 to 13.881119742092062
+  temperature_mosfet: 21.83 to 34.73
+  temperature_resistor: 22.0 to 31.58
+  mission_type: 0.0 to 1.0
+  temperature_battery: -78.179 to 78.719
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery23.csv
+Rows: 1344130
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1183529
+  current_load: 1183529
+  temperature_mosfet: 1183529
+  temperature_resistor: 1183529
+  mission_type: 1183529
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1353175.3760000002
+  mode: -1.0 to 1.0
+  voltage_charger: -0.121 to 9.161
+  temperature_battery: -75.97399999999999 to 73.162
+  voltage_load: -0.027 to 8.74
+  current_load: 0.15 to 15.349312335697588
+  temperature_mosfet: 21.48 to 34.09
+  temperature_resistor: 21.67 to 31.64
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery30.csv
+Rows: 597316
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 551645
+  current_load: 551645
+  temperature_mosfet: 551645
+  temperature_resistor: 551645
+  mission_type: 551645
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 582427.703
+  mode: -1.0 to 1.0
+  voltage_charger: -0.06 to 9.17
+  temperature_battery: 0.0 to 96.069
+  voltage_load: -0.027 to 8.682
+  current_load: 0.15 to 20.004901699246776
+  temperature_mosfet: 21.97 to 34.42
+  temperature_resistor: 22.54 to 36.17
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery31.csv
+Rows: 3341603
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2959766
+  current_load: 2959766
+  temperature_mosfet: 2959766
+  temperature_resistor: 2959766
+  mission_type: 2959766
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 3342336.574
+  mode: -1.0 to 1.0
+  voltage_charger: -0.06 to 9.147
+  temperature_battery: 0.0 to 73.492
+  voltage_load: -0.027 to 8.73
+  current_load: 0.15 to 13.907865832801168
+  temperature_mosfet: 21.93 to 34.82
+  temperature_resistor: 21.45 to 34.39
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery40.csv
+Rows: 753257
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 690875
+  current_load: 690875
+  temperature_mosfet: 690875
+  temperature_resistor: 690875
+  mission_type: 690875
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 737886.332
+  mode: -1.0 to 1.0
+  voltage_charger: 0.0 to 8.631
+  temperature_battery: 0.0 to 105.856
+  voltage_load: -0.027 to 8.684
+  current_load: 0.15 to 19.88350126701117
+  temperature_mosfet: 20.23 to 34.02
+  temperature_resistor: 22.15 to 35.2
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery41.csv
+Rows: 2926443
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2667820
+  current_load: 2667820
+  temperature_mosfet: 2667820
+  temperature_resistor: 2667820
+  mission_type: 2667820
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2928689.948
+  mode: -1.0 to 1.0
+  voltage_charger: -0.063 to 9.194
+  temperature_battery: 0.0 to 79.0
+  voltage_load: -0.027 to 8.774
+  current_load: 0.15 to 17.313629282459573
+  temperature_mosfet: 22.06 to 35.05
+  temperature_resistor: 20.2 to 33.71
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery50.csv
+Rows: 791869
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 713696
+  current_load: 713696
+  temperature_mosfet: 713696
+  temperature_resistor: 713696
+  mission_type: 713696
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 775296.242
+  mode: -1.0 to 1.0
+  voltage_charger: -0.065 to 9.113
+  temperature_battery: 0.0 to 108.031
+  voltage_load: -0.026 to 8.746
+  current_load: 0.15 to 24.269487749261334
+  temperature_mosfet: 15.67 to 33.86
+  temperature_resistor: 20.92 to 36.11
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery51.csv
+Rows: 1822787
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1625919
+  current_load: 1625919
+  temperature_mosfet: 1625919
+  temperature_resistor: 1625919
+  mission_type: 1625919
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1828969.36
+  mode: -1.0 to 1.0
+  voltage_charger: -0.065 to 9.009
+  temperature_battery: 0.0 to 85.65899999999999
+  voltage_load: -0.027 to 8.818999999999999
+  current_load: 0.15 to 16.957324318299797
+  temperature_mosfet: 22.01 to 34.75
+  temperature_resistor: 22.13 to 33.52
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: regular_alt_batteries\battery52.csv
+Rows: 1510563
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1338153
+  current_load: 1338153
+  temperature_mosfet: 1338153
+  temperature_resistor: 1338153
+  mission_type: 1338153
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1507637.802
+  mode: -1.0 to 1.0
+  voltage_charger: -0.065 to 9.114
+  temperature_battery: 0.0 to 92.907
+  voltage_load: -0.027 to 8.817
+  current_load: 0.15 to 15.989720755954927
+  temperature_mosfet: 21.77 to 33.83
+  temperature_resistor: 21.98 to 31.42
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: second_life_batteries\battery13.csv
+Rows: 1736149
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1495910
+  current_load: 1495910
+  temperature_mosfet: 1495910
+  temperature_resistor: 1495910
+  mission_type: 1495910
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 1747329.6909999996
+  mode: -1.0 to 1.0
+  voltage_charger: -0.069 to 8.958
+  temperature_battery: 0.0 to 65.737
+  voltage_load: -0.027 to 8.726
+  current_load: 0.15 to 10.570936917139155
+  temperature_mosfet: 21.15 to 30.92
+  temperature_resistor: 21.62 to 27.2
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: second_life_batteries\battery36.csv
+Rows: 3394365
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 2764227
+  current_load: 2764227
+  temperature_mosfet: 2764227
+  temperature_resistor: 2764227
+  mission_type: 2764227
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 3382891.374000001
+  mode: -1.0 to 1.0
+  voltage_charger: -0.062 to 12.024
+  temperature_battery: 0.0 to 62.158
+  voltage_load: -0.027 to 8.528
+  current_load: 0.15 to 8.279041065563911
+  temperature_mosfet: 21.53 to 30.15
+  temperature_resistor: 21.74 to 26.79
+  mission_type: 0.0 to 1.0
+-----------------------------------------------------------------
+FILE: second_life_batteries\battery54.csv
+Rows: 1989458
+Columns: 10
+Column names: start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type
+Missing values:
+  start_time: 0
+  time: 0
+  mode: 0
+  voltage_charger: 0
+  temperature_battery: 0
+  voltage_load: 1510252
+  current_load: 1510252
+  temperature_mosfet: 1510252
+  temperature_resistor: 1510252
+  mission_type: 1510252
+Data types:
+  start_time: str
+  time: float64
+  mode: float64
+  voltage_charger: float64
+  temperature_battery: float64
+  voltage_load: float64
+  current_load: float64
+  temperature_mosfet: float64
+  temperature_resistor: float64
+  mission_type: float64
+Numeric ranges:
+  time: 0.0 to 2002671.594
+  mode: -1.0 to 1.0
+  voltage_charger: -0.067 to 9.142
+  temperature_battery: 0.0 to 58.92
+  voltage_load: -0.026 to 8.703
+  current_load: 0.15 to 4.945185088671561
+  temperature_mosfet: 21.53 to 28.2
+  temperature_resistor: 21.69 to 24.92
+  mission_type: 0.0 to 1.0

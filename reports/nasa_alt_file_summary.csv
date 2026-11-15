@@ -1,0 +1,27 @@
+file,rows,columns_count,columns,total_missing_values,status
+recommissioned_batteries\battery02.csv,2069667,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",9045525,Success
+recommissioned_batteries\battery03.csv,2161444,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",9090585,Success
+recommissioned_batteries\battery12.csv,3041084,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",12751995,Success
+recommissioned_batteries\battery24.csv,3285619,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",13979290,Success
+recommissioned_batteries\battery25.csv,2169910,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",9140530,Success
+recommissioned_batteries\battery32.csv,1829938,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",8083625,Success
+recommissioned_batteries\battery33.csv,2353426,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",10284205,Success
+recommissioned_batteries\battery53.csv,1139972,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",5014060,Success
+regular_alt_batteries\battery00.csv,1101244,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",4976190,Success
+regular_alt_batteries\battery01.csv,4918193,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",20846125,Success
+regular_alt_batteries\battery10.csv,907341,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",4087485,Success
+regular_alt_batteries\battery11.csv,4914864,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",20775710,Success
+regular_alt_batteries\battery20.csv,207391,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",942320,Success
+regular_alt_batteries\battery21.csv,530718,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",2420190,Success
+regular_alt_batteries\battery22.csv,2690545,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",11889610,Success
+regular_alt_batteries\battery23.csv,1344130,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",5917645,Success
+regular_alt_batteries\battery30.csv,597316,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",2758225,Success
+regular_alt_batteries\battery31.csv,3341603,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",14798830,Success
+regular_alt_batteries\battery40.csv,753257,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",3454375,Success
+regular_alt_batteries\battery41.csv,2926443,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",13339100,Success
+regular_alt_batteries\battery50.csv,791869,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",3568480,Success
+regular_alt_batteries\battery51.csv,1822787,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",8129595,Success
+regular_alt_batteries\battery52.csv,1510563,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",6690765,Success
+second_life_batteries\battery13.csv,1736149,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",7479550,Success
+second_life_batteries\battery36.csv,3394365,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",13821135,Success
+second_life_batteries\battery54.csv,1989458,10,"start_time, time, mode, voltage_charger, temperature_battery, voltage_load, current_load, temperature_mosfet, temperature_resistor, mission_type",7551260,Success
