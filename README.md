@@ -162,4 +162,187 @@ VOLTEX uses a simple Linear Regression-based extrapolation method:
 
 Different historical windows and SOH processing approaches were compared using available battery data.
 
-The lowest overall
+The lowest overall MAE in the tested configurations was approximately **15.17 discharge cycles**, obtained using:
+
+- Original SOH observations
+- 60-cycle historical window
+
+This experiment was conducted on only two batteries, B0005 and B0006, with multiple cutoff points. It is a limited backtesting result, not an independent estimate of general RUL accuracy.
+
+**Limitations:**
+- RUL estimation is experimental.
+- Only a limited number of batteries were available for backtesting.
+- Battery degradation may not follow a perfectly linear pattern.
+- Predictions can change with the selected historical window and degradation behavior.
+- RUL estimates are not suitable for safety-critical decisions.
+
+---
+
+## 📁 Project Structure
+
+```text
+VOLTEX-EV-Battery-Health-Prediction/
+│
+├── app.py
+├── rul_prediction.py
+├── check_suspicious_readings.py
+│
+├── data/
+│   ├── raw/
+│   │   ├── B0005.mat
+│   │   ├── B0006.mat
+│   │   ├── B0007.mat
+│   │   └── B0018.mat
+│   │
+│   └── processed/
+│       ├── battery_features.csv
+│       └── soh_model_dataset.csv
+│
+├── model/
+│   ├── soh_extra_trees.pkl
+│   └── soh_features.pkl
+│
+├── notebooks/
+│   ├── validate_rul.py
+│   └── compare_rul_windows.py
+│
+├── result/
+│   └── rul_window_comparison.csv
+│
+├── README.md
+└── requirements.txt
+```
+
+*The structure above describes the main project files and may be adjusted to match the actual repository contents.*
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Pandas | Data manipulation and analysis |
+| NumPy | Numerical computations |
+| Scikit-learn | Machine learning and regression |
+| Streamlit | Interactive dashboard |
+| Plotly | Interactive data visualization |
+| SciPy | Scientific data processing and MATLAB file handling |
+| Pickle | Saving and loading trained model artifacts |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Riniverma/EV-battery-life-prediction.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd EV-battery-life-prediction
+```
+
+### 3. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the Virtual Environment
+
+For Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 5. Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 6. Run the Dashboard
+
+```bash
+python -m streamlit run app.py
+```
+
+The dashboard should open in your default browser when Streamlit starts successfully.
+
+---
+
+## 📈 Expected Dashboard Modules
+
+| Module | Description |
+|---|---|
+| Diagnostic | Current battery health and degradation analysis |
+| Battery Explorer | Comparison of battery SOH trends |
+| Model Performance | Regression model evaluation |
+| RUL Estimation | Experimental remaining useful life projection |
+| Data Laboratory | Dataset inspection and CSV download |
+
+---
+
+## 📚 Dataset
+
+**Source:** NASA Prognostics Center of Excellence (PCoE)
+
+The project uses the NASA Lithium-Ion Battery Aging Dataset, including battery records:
+
+- B0005
+- B0006
+- B0007
+- B0018
+
+The dataset contains historical charge and discharge measurements used to study battery degradation and capacity fade.
+
+---
+
+## ⚠️ Limitations & Future Improvements
+
+### Current Limitations
+
+- The SOH model is evaluated on a limited set of battery units.
+- RUL estimation uses linear extrapolation rather than a separately trained RUL prediction model.
+- The 70% EOL threshold is a project assumption.
+- The experimental backtesting dataset is limited.
+- Historical laboratory data does not represent live EV battery telemetry.
+
+### Future Improvements
+
+- Train dedicated machine learning models for RUL prediction.
+- Evaluate performance on additional battery datasets.
+- Explore advanced time-series forecasting methods.
+- Improve robustness against noisy SOH measurements.
+- Add real-time battery monitoring capabilities.
+- Integrate battery anomaly detection.
+- Improve model generalization across different battery conditions.
+
+---
+
+## 👩‍💻 Author
+
+**Rini Verma**
+
+B.Tech – Artificial Intelligence & Machine Learning
+
+Lovely Professional University
+
+**GitHub:** [Riniverma](https://github.com/Riniverma)
+
+---
+
+## ⭐ Acknowledgements
+
+- NASA Prognostics Center of Excellence (PCoE) for the Lithium-Ion battery aging dataset.
+- Scikit-learn for machine learning tools.
+- Streamlit and Plotly for dashboard development and visualization.
+
+---
+
+*VOLTEX – Turning Battery Data into Health Insights.*
